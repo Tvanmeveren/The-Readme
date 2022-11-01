@@ -45,6 +45,13 @@ const questions = [
         }
     },
     {
+        type: 'rawlist',
+        name: 'license',
+        message: 'Choose a license for your project(Required)',
+        choices: ['Academic', 'Apache 2.0', 'BSD 3', 'MIT',  'Mozilla', 'None']
+    },
+
+    {
         type: 'input',
         name: 'usage',
         message: "how to do you use this application?(Required) ",
@@ -57,12 +64,7 @@ const questions = [
             }
         }
     },
-    {
-        type: 'rawlist',
-        name: 'license',
-        message: 'Choose a license for your project(Required)',
-        choices: ['Apache 2.0', 'BSD 3', 'MIT', 'Academic', 'Mozilla', 'None']
-    },
+ 
     {
         type: 'input',
         name: 'test',
@@ -154,5 +156,6 @@ function init() {
         console.log('Succesfully created README')
     })
 } 
+
 // Function call to initialize app
 init();
