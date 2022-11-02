@@ -1,7 +1,7 @@
 # The-Readme
   ![Github license](https://img.shields.io/badge/MIT-blue.svg)
   ## Description 
-  It makes a quick Readme
+  It makes a quick Readme based on the users input by the prompts given by the terminal.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
