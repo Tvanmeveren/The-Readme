@@ -13,7 +13,7 @@ const questions = [
             if(titleinput) {
                 return true;
             } else {
-                console.log("Enter the title of your project")
+                console.log("Please enter the title of your project")
                 return false;
             }
         }
@@ -73,7 +73,7 @@ const questions = [
             if (testInput) {
                 return true;
             } else {
-                console.log("Include a test")
+                console.log("Please include a test")
                 return false;
             }
         }
@@ -99,7 +99,7 @@ const questions = [
             if(creditsInput) {
                 return true;
             } else {
-                console.log("Please provide ");
+                console.log("Please provide Credits if you have any ");
                 return false;
             }
         }
@@ -112,7 +112,7 @@ const questions = [
             if (nameInput) {
                 return true;
             } else {
-                console.log("Please enter your name! or else ;P")
+                console.log("Please enter your name.")
                 return false;
             }
         }
@@ -138,7 +138,7 @@ const questions = [
             if(githubInput) {
                 return true;
             } else {
-                console.log("Please enter your github username! or else ;P")
+                console.log("Please enter your github username.")
             }
         }
     }
