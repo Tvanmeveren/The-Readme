@@ -14,7 +14,9 @@
   ## Installation 
   The README Generator is used by first installing node.js. After installing and setting up node.js clone the README Generator to your local machine. Then run npm i inquirer@8.2.4 to install inquerer8.2.4. you are now ready to use the README Generator. 
   ## Usage 
-  First you open your terminal and then run  node index.js then follow the prompts given by the terminal. After you have went through the prompts the README will be generated. 
+  First you open your terminal and then run  node index.js then follow the prompts given by the terminal. After you have went through the prompts the README will be generated.
+  
+  Watch Video: https://drive.google.com/file/d/15-sfoup2UosHFopKEIGKmrN3gO8gNUWM/view
   ## Contributing 
   By reaching out to my github
   ## Credits 
